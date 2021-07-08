@@ -1,0 +1,36 @@
+.menu{
+    height: 40px;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+h2{
+    vertical-align: middle;
+
+}
+
+.titulo{
+        
+    z-index: 3;
+    width: 100%;
+    background-color: rgb(193, 199, 168);
+    justify-content: space-between;
+    top: 50px;
+    position: fixed;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    align-self: center;
+    margin: auto;
+
+}
