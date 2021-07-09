@@ -10,14 +10,26 @@
 
 </head>
 <body>
-    <div class="titulo">
-        <h2>Conheça Portugal</h2>
+  <center><h2>Agência de Turismo - Pastel de Belem</h2></center>
+  <nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid text color white">
+    <a class="navbar-brand text-white" href="#"> Conheça Portugal </a>
+    <a class="navbar-brand text-white" href="formport.html"> Agende sua viagem </a>
+    <a class="navbar-brand text-white" href="#"> Roteiro gastronômico </a>
+    <a class="navbar-brand text-white" href="#"> História de Portugal </a>
     </div>
-    
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  </nav>
+
+  <section id="slides">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="port1.jpg" class="d-block w-100" alt="">
+            <img src="port1.jpg" class="d-block w-100" alt=""> 
           </div>
           <div class="carousel-item">
             <img src="port2.jpg" class="d-block w-100" alt="">
@@ -25,27 +37,95 @@
           <div class="carousel-item">
             <img src="port3.jpg" class="d-block w-100" alt="">
           </div>
-          <div class="carousel-item">
-            <img src="port4.jpg" class="d-block w-100" alt="">
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+  </section>
+  <section class="mt-4" id="conteudo">
+    <div class="row">
+        <div class="col-md-4 col-sm-4">
+            <div class="list-group ">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  Principais cidades de Portugal
+                </a>
+                <a href="#" class="list-group-item list-group-item-action"> Lisboa</a>
+                <a href="#" class="list-group-item list-group-item-action"> Porto</a>
+                <a href="#" class="list-group-item list-group-item-action"> Óbitos</a>
+                <a href="#" class="list-group-item list-group-item-action"> Nazaré</a>
+                <a href="#" class="list-group-item list-group-item-action"> Cascais</a>
+                <a href="#" class="list-group-item list-group-item-action"> Braga</a>
+                <a href="#" class="list-group-item list-group-item-action"> Guimarães</a>
+                <a href="#" class="list-group-item list-group-item-action"> Setúbal</a>
+              </div>
+        </div>
+        <div class="col-md-8 col-sm-8">
+          
+  <div>
+    <div class="row">
+        <div class="col order-last">
+        <div class="card" style="width: 18rem;">
+          <img src="port1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+            <h5 class="card-title">Conheça o Douro</h5>
+            <p class="card-text">Rota dos Vinhos</p>
+            <a href="#" class="btn btn-dark">Orçamento</a>
+          </div>
+        </div>
+      </div>
+
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="port2.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+          <h5 class="card-title">Arco da Augusta</h5>
+          <p class="card-text">Uma das maravilhas de Portugal</p>
+          <a href="#" class="btn btn-dark">Orçamento</a>
+      </div>
     </div>
-      
-    <div class="menu">
-        <a href=""> Principais cidades </a>
-        <a href=""> Gastronomia </a>
-        <a href=""> Curiosidades </a>
-        <a href="formport.html"> Marque sua viagem  </a>
+  </div>
+</div>
+</div>
+          
+                
+  <div class="row">
+
+  <div class="col order-last">
+  <div class="card" style="width: 18rem;">
+    <img src="port3.jpg" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Algar de Benagil</h5>
+      <p class="card-text">Conheça essa maravilha!</p>
+      <a href="#" class="btn btn-dark">Orçamento</a>
+    </div>
+  </div>
+  </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="port4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Torre de Belem</h5>
+          <p class="card-text">Marco de Portugal</p>
+          <a href="#" class="btn btn-dark">Orçamento</a>
+        </div>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
 </html>
