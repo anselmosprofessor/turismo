@@ -6,19 +6,12 @@
     justify-content: space-between;
     position: fixed;
     top: 0;
+    text-align: center;
+    
 }
 
-.titulo{
-        
-    z-index: 3;
-    width: 100%;
-    background-color: rgb(193, 199, 168);
-    justify-content: space-between;
-    top: 50px;
-    position: fixed;
-    text-align: center;
-    padding-top: 20px;
-    box-sizing: border-box;
+.faixa{
+    margin-right: 100px;
 }
 
 a{
@@ -27,5 +20,10 @@ a{
     font-size: 18px;
     align-self: center;
     margin: auto;
+    text-align: center;
+    
 
+}
+.card{
+    margin: auto;
 }
